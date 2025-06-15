@@ -1,0 +1,31 @@
+class ShoolHeaders{
+
+  static List<String> headers = [
+    'ID',
+    'Ministerial Number',
+    'Name',
+    'Group',
+    'Level',
+    'Type',
+    'State',
+    'Office',
+    'Supervisor',
+    'Supervisor Mobile',
+    'City',
+    'Address',
+    'Building Owner',
+    'Building Size',
+    'School Size',
+    'Shift',
+    'School Type',
+    'Notes',
+    'Ministerial Group Number',
+    'Group Name',
+    'Building Type',
+    'Leader Name',
+    'Leader Mobile',
+    'Leader Email',
+    'Security Guard Name',
+    'Security Guard Mobile',
+  ];
+}

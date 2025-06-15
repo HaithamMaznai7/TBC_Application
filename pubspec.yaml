@@ -1,0 +1,82 @@
+name: tbc_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  convex_bottom_bar: ^3.2.0
+  get: ^4.7.2
+  firebase_auth: ^5.5.1
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  syncfusion_flutter_core: ^28.2.9
+  flutter_svg: ^2.0.17
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+  maps_launcher: ^3.0.0+1
+  syncfusion_flutter_datepicker: ^28.2.9
+  google_maps_flutter: ^2.12.1
+  uuid: ^4.5.1
+  url_launcher: ^6.3.1
+  csv: ^6.0.0
+  path_provider: ^2.1.5
+  universal_html: ^2.2.4
+  file_picker: ^10.1.2
+  flutter_slidable: ^4.0.0
+  camera: ^0.11.1
+  easy_image_viewer: ^1.5.1
+  iconsax: ^0.0.8
+  timeago: ^3.7.1
+  badges: ^3.1.2
+  fl_chart: ^1.0.0
+  firebase_messaging: ^15.2.6
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+    - family: inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/inter/Inter-Black.ttf
+          weight: 900
